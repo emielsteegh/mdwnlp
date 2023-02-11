@@ -1,0 +1,84 @@
+{
+  "default": {
+    "description": "Description placeholder\n",
+    "citation": "Citation placeholder\n",
+    "homepage": "https://www.rechtspraak.nl/Uitspraken/paginas/open-data.aspx",
+    "license": "",
+    "features": {
+      "text": {
+        "dtype": "string",
+        "id": null,
+        "_type": "Value"
+      },
+      "label": {
+        "num_classes": 26,
+        "names": [
+          "Aanbestedingsrecht",
+          "Ambtenarenrecht",
+          "Arbeidsrecht",
+          "Belastingrecht",
+          "Bestuursprocesrecht",
+          "Bestuursstrafrecht",
+          "Burgerlijk procesrecht",
+          "Europees bestuursrecht",
+          "Europees civiel recht",
+          "Europees strafrecht",
+          "Goederenrecht",
+          "Insolventierecht",
+          "Intellectueel - eigendomsrecht",
+          "Internationaal privaatrecht",
+          "Internationaal strafrecht",
+          "Materieel strafrecht",
+          "Mededingingsrecht",
+          "Omgevingsrecht",
+          "Ondernemingsrecht",
+          "Penitentiair strafrecht",
+          "Personen - en familierecht",
+          "Socialezekerheidsrecht",
+          "Strafprocesrecht",
+          "Verbintenissenrecht",
+          "Volkenrecht",
+          "Vreemdelingenrecht"
+        ],
+        "names_file": null,
+        "id": null,
+        "_type": "ClassLabel"
+      }
+    },
+    "supervised_keys": null,
+    "builder_name": "ornl26",
+    "config_name": "default",
+    "version": {
+      "version_str": "0.0.0",
+      "description": null,
+      "nlp_version_to_prepare": null,
+      "major": 0,
+      "minor": 0,
+      "patch": 0
+    },
+    "splits": {
+      "train": {
+        "name": "train",
+        "num_bytes": 547870860,
+        "num_examples": 138888,
+        "dataset_name": "ornl26"
+      },
+      "test": {
+        "name": "test",
+        "num_bytes": 137250312,
+        "num_examples": 34722,
+        "dataset_name": "ornl26"
+      }
+    },
+    "download_checksums": {
+      "https://huggingface.co/datasets/Rodekool/ornl26/resolve/main/train.csv": {
+        "num_bytes": 547870860,
+        "checksum": "da5de8b25aa1eac8d2842eff450cdd56f3651e1439b36d3cd5063e67c2aea16f"
+      },
+      "https://huggingface.co/datasets/Rodekool/ornl26/resolve/main/test.csv": {
+        "num_bytes": 137250312,
+        "checksum": "07b1ea18e26ce631c8297d8aa1e784f1e3230cd0b86a989fa60bb9b92e53700e"
+      }
+    }
+  }
+}
