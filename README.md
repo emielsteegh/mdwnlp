@@ -8,7 +8,7 @@
 
 In our paper we explore the performance of different Active Learning methods for multi-class classification in an imbalanced low-resource domain: Dutch Legal texts. We also provide the ORNL dataset for exactly this task.
 
-Code for:
+Find the code for:
 
-- [Experiments](Experiments/)
-- [ORNL dataset](ORNL/)
+- [The Experiments](Experiments/)
+- [The ORNL dataset](ORNL/)
